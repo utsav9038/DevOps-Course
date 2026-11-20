@@ -2,9 +2,9 @@
 #should have name
 name: Hello
 on:
-  workflow-dispatch: 
+  workflow_dispatch: 
 #Jobs (tasks)
-Jobs:
+jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
